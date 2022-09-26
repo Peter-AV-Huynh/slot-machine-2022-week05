@@ -1,0 +1,61 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: lavender;
+}
+
+.middle {
+    font-size: 90px;
+}
+
+p{
+    text-align: center;
+}
+
+button{
+    font-size: 35px;
+    width: 220px;
+    color: white;
+    background-color: purple;
+}
+
+span {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.slotNumber {
+    font-size: 60px;
+}
+
+.smile {
+    text-align: center;
+    display: none;
+    font-size: 100px;
+    color: purple;
+}
+
+.middle {
+    text-align: center;
+}
+
+.pull{
+    margin-top: 10px;
+}
+
+table.middle{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bet {
+    text-align: center;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
