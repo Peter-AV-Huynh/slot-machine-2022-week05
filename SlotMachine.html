@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="SlotMachine.css">
+    <title>Slot Machine</title>
+</head>
+<body>
+    <h1 class="middle">Lets Play!</h1>
+    <p>(Get 3 Matching Numbers to Win!)</p>
+    <section class="middle pull">
+        <button onclick="spin()" id="minBet" class="bet">min-bet 5</button>
+        <button onclick= "spinTwo()" id="maxBet" class="bet">max-bet 50</button>
+    </section>
+    <table class="middle">
+        <tbody>
+            <tr>
+                <td>
+                    <span id="firstItem" class="slotNumber"></span>
+                </td>
+                <td>
+                    <span id="secondItem" class="slotNumber"></span>
+                </td>
+                <td>
+                    <span id="thirdItem" class="slotNumber"></span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <section id="bet">
+        <h2 id="currentTotal"></h2>
+    </section>
+    <section id="smile" class="middle smile">
+        :D
+    </section>
+    <script src="SlotMachine.js"></script>
+
+</body>
+</html>
